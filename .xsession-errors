@@ -42,20 +42,20 @@ dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-en
 /usr/bin/iceauth:  creating new authority file /run/user/1000/ICEauthority
 gpg-agent: a gpg-agent is already running - not starting a new one
 
-(xfwm4:2341): xfwm4-WARNING **: 14:35:32.103: Unsupported GL renderer (llvmpipe (LLVM 19.1.3, 128 bits)).
+(xfwm4:2305): xfwm4-WARNING **: 10:50:18.322: Unsupported GL renderer (llvmpipe (LLVM 19.1.3, 128 bits)).
 
-(xfce4-session:2197): xfce4-session-WARNING **: 14:35:32.857: Unable to launch "xcape -e 'Super_L=Control_L|Escape'" (specified by autostart/xcape-super-key-bind.desktop): Failed to execute child process “xcape” (No such file or directory)
+(xfce4-session:2162): xfce4-session-WARNING **: 10:50:19.115: Unable to launch "xcape -e 'Super_L=Control_L|Escape'" (specified by autostart/xcape-super-key-bind.desktop): Failed to execute child process “xcape” (No such file or directory)
 
-(polkit-mate-authentication-agent-1:2463): GLib-CRITICAL **: 14:35:33.415: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-mate-authentication-agent-1:2438): GLib-CRITICAL **: 10:50:19.592: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-mate-authentication-agent-1:2463): polkit-mate-1-WARNING **: 14:35:33.417: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-mate-authentication-agent-1:2438): polkit-mate-1-WARNING **: 10:50:19.602: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-** (xiccd:2486): WARNING **: 14:35:33.784: EDID is empty
-blueman-applet 14.35.34 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
-blueman-applet 14.35.34 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
-blueman-applet 14.35.34 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
+** (xiccd:2447): WARNING **: 10:50:19.916: EDID is empty
+blueman-applet 10.50.20 WARNING  PluginManager:150 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 10.50.20 WARNING  PluginManager:150 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 10.50.20 WARNING  DiscvManager:122 update_menuitems: warning: Adapter is None
 
-** (xiccd:2486): WARNING **: 14:35:36.140: EDID is empty
+** (xiccd:2447): WARNING **: 10:50:22.358: EDID is empty
 
-** (xiccd:2486): WARNING **: 14:35:36.149: EDID is empty
+** (xiccd:2447): WARNING **: 10:50:22.362: EDID is empty
 qt.xkb.compose: failed to create compose table
